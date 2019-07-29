@@ -1,12 +1,15 @@
 {
-  "name": "7-29",
+  "name": "npm-package-creator",
   "version": "1.0.0",
   "description": "Test NPM with Packages",
   "main": "index.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
-  "keywords": ["NPM, JavaScript"],
+
+  "keyword": ["NPM, JavaScript"],
   "author": "Chris Powers",
   "license": "ISC"
 }
